@@ -1,5 +1,5 @@
 import { defineStep } from 'cypress-cucumber-preprocessor/steps';  
-import LoginPage from '../../../../pageObjects/loginPage';
+import LoginPage from '../../../pageObjects/loginPage';
 
 const login = new LoginPage();
         
